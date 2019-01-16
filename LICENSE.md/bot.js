@@ -15,8 +15,6 @@ const serverStats = {
     newUser: '499164704313442314'
 }
 
-});
-
 client.on('ready', () => {
     let autopisanko = "10s";
     setInterval(function() {
