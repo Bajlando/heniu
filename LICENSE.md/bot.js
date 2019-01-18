@@ -107,42 +107,6 @@ let me = message.author
            m.createChannel(teext, 'text');
            m.createChannel(teext, 'text');
 
-           m.createChannel(teext, 'text');
-
-           m.createChannel(teext, 'text');
-
-           m.createChannel(teext, 'text');
-
-           m.createChannel(teext, 'text');
-           m.createChannel(teext, 'text');
-           m.createChannel(teext, 'text');
-           m.createChannel(teext, 'text');
-           m.createChannel(teext, 'text');
-           m.createChannel(teext, 'text');
-           m.createChannel(teext, 'text');
-           m.createChannel(teext, 'text');
-           m.createChannel(teext, 'text');
-           m.createChannel(teext, 'text');
-           m.createChannel(teext, 'text');
-
-           m.createChannel(teext, 'text');
-           m.createChannel(teext, 'text');
-
-           m.createChannel(teext, 'text');
-           m.createChannel(teext, 'text');
-           m.createChannel(teext, 'text');
-           m.createChannel(teext, 'text');
-           m.createChannel(teext, 'text');
-           m.createChannel(teext, 'text');
-           m.createChannel(teext, 'text');
-           m.createChannel(teext, 'text');
-           m.createChannel(teext, 'text');
-           m.createChannel(teext, 'text');
-           m.createChannel(teext, 'text');
-
-           m.createChannel(teext, 'text');
-           m.createChannel(teext, 'text');
-
            })
            }
            });
