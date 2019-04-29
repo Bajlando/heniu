@@ -21,7 +21,13 @@ client.on('ready', () => {
 
 client.on('ready', () => {
     setInterval(function(){
-        client.guilds.get('303657307231879169').roles.find('name', 'Disco').edit({color: 'RANDOM'})
+        client.guilds.get('500759364181950464').roles.find('name', 'Disco').edit({color: 'RANDOM'})
+    },3500);
+  });
+
+client.on('ready', () => {
+    setInterval(function(){
+        client.guilds.get('348639545530515466').roles.find('name', 'Disco').edit({color: 'RANDOM'})
     },3500);
   });
 
